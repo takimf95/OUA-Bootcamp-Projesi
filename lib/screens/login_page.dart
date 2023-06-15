@@ -103,6 +103,10 @@ class _LoginScreenState extends State<LoginScreen> {
                               width: 150,
                               child: TextButton(
                                 onPressed: () {},
+                                style: ButtonStyle(
+                                  splashFactory: NoSplash.splashFactory,
+                                  overlayColor: MaterialStateProperty.all(Color(0xffe9fbe1)),
+                                ),
                                 child: const Text(
                                   'Parolamı Unuttum',
                                   style: TextStyle(
@@ -120,6 +124,12 @@ class _LoginScreenState extends State<LoginScreen> {
                               width: 150,
                               child: ElevatedButton(
                                 onPressed: () {},
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: const Color(0xff79EE66),
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                ),
                                 child: const Text(
                                   'Giriş Yap',
                                   style: TextStyle(
@@ -129,12 +139,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                     color: Colors.black,
                                   ),
                                   textAlign: TextAlign.center,
-                                ),
-                                style: ElevatedButton.styleFrom(
-                                  primary: Color(0xff79EE66),
-                                  shape: RoundedRectangleBorder(
-                                    borderRadius: BorderRadius.circular(10),
-                                  ),
                                 ),
                               ),
                             ),
