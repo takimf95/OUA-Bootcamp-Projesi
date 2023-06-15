@@ -1,3 +1,4 @@
+import 'package:eco_markt/screens/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -247,14 +248,20 @@ class Page2 extends StatelessWidget {
                     ],
                   ),
                   Positioned(
-                    top: 0,
-                    right: 0,
-                    child: SvgPicture.asset(
-                    'assets/images/leaf.svg',
-                      width: 50,
-                      height: 50,
+                    bottom: 20,
+                    right: 10,
+                    child: IconButton(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const LoginScreen()),
+                        );
+                      },
+                      icon: SvgPicture.asset(
+                        'assets/images/right.svg',
+                      ),
+                    ),
                   ),
-                  )
                 ],
               ),
             )
