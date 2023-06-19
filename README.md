@@ -38,6 +38,7 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
+
 -**Sprint board update:** Sprint board screenshotları:
 - **Sprint Notları**
 - **Ürün Durumu**: Ekran Görüntüleri
