@@ -29,13 +29,13 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 - İklim değişikliği konusunda adım atmak isteyenler
 - Karbon ayak izi konusunda hassasiyet gösteren tüketiciler
 
-## Product Backlog URL
+## [Product Backlog URL](https://miro.com/app/board/uXjVM93Y9Ew=/?share_link_id=757237939795)
 -----
 
 # Sprint 1
 -**Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
--**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+-**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
 
