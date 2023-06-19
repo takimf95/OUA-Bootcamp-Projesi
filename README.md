@@ -44,7 +44,9 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 - **Ürün Durumu**: Ekran Görüntüleri
 
   ![ekomarkt1](ecomarkt1.PNG) \
-  ![ekomarkt2](ekomarkt2.PNG)
+  ![ekomarkt2](ekomarkt2.PNG) \
+  ![GIF Önizlemesi](gif_dosya_yolu)
+
   
 -**Sprint Review:** Alınan kararlar: Kullanıcıyı karşılayacak ilk iki ekran ve giriş&kayıt ekranı tasarlanmış, frontend kısmı kodlanmış, anasayfa tasarımı ve içerikleri taslak olarak hazırlanmış, eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
 
