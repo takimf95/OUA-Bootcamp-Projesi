@@ -42,6 +42,6 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Sprint board update:** Sprint board screenshotları:
 - **Sprint Notları**
 - **Ürün Durumu**: Ekran Görüntüleri
-  ![ekomarkt1](resim_yolu)
+  ![ekomarkt1](ecomarkt1.PNG)
 
 
