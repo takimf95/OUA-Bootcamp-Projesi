@@ -29,9 +29,9 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 - İklim değişikliği konusunda adım atmak isteyenler
 - Karbon ayak izi konusunda hassasiyet gösteren tüketiciler
 
-## [Product Backlog URL](https://miro.com/app/board/uXjVM93Y9Ew=/?share_link_id=757237939795)
+## Product Backlog URL
 -----
-
+ [Product Backlog Flutter Team 95](https://miro.com/app/board/uXjVM93Y9Ew=/?share_link_id=757237939795)
 # Sprint 1
 -**Sprint içinde tamamlanması tahmin edilen puan:** 100 Puan
 
@@ -40,8 +40,10 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
 
 -**Sprint board update:** Sprint board screenshotları:
-![sprint1](ecomarkt1.PNG) \
+![sprint1](Sprint.PNG) 
+
 - **Sprint Notları**
+- Ürün kabul kriterleri, tasklarin içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
 
   ![ekomarkt1](ecomarkt1.PNG) \
@@ -56,4 +58,5 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 - Projeye ayrılan zamanın ilerleyen sprintlerde daha fazla olmasının gerekliliğine,
 - Ekip içi iletişimin arttırılmasına vurgu yapılmıştır.
 
-
+# **Product Backlog URL**
+[**Product Backlog Flutter Team 95**](https://miro.com/app/board/uXjVM91Zno8=/?share_link_id=494123797558)
