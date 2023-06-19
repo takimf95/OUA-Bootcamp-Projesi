@@ -40,6 +40,7 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
 
 -**Sprint board update:** Sprint board screenshotları:
+![sprint1](ecomarkt1.PNG) \
 - **Sprint Notları**
 - **Ürün Durumu**: Ekran Görüntüleri
 
