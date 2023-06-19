@@ -49,8 +49,8 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Sprint Review:** Alınan kararlar: Kullanıcıyı karşılayacak ilk iki ekran ve giriş&kayıt ekranı tasarlanmış, frontend kısmı kodlanmış, anasayfa tasarımı ve içerikleri taslak olarak hazırlanmış, eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
 
 -**Sprint Retrospective:**
-Asana platformunda atanan görevlerin daha dikkatli takip edilmesine,
-Projeye ayrılan zamanın ilerleyen sprintlerde daha fazla olmasının gerekliliğine,
-Ekip içi iletişimin arttırılması gerektiğine vurgu yapılmıştır.
+- Asana platformunda atanan görevlerin daha dikkatli takip edilmesi gerektiğine,
+- Projeye ayrılan zamanın ilerleyen sprintlerde daha fazla olmasının gerekliliğine,
+- Ekip içi iletişimin arttırılmasına vurgu yapılmıştır.
 
 
