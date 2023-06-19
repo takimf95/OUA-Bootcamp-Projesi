@@ -43,7 +43,7 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 ![sprint1](Sprint.PNG) 
 
 - **Sprint Notları**
-- Ürün kabul kriterleri, tasklarin içerisinde görüntülenebilmektedir.
+- Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
 
   ![ekomarkt1](ecomarkt1.PNG) \
