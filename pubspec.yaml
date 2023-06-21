@@ -62,6 +62,8 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/categories/
+    - assets/images/stores/
   fonts:
     - family: Lato
       fonts:

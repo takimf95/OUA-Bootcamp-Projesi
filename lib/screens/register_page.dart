@@ -1,16 +1,15 @@
-import 'package:eco_markt/screens/main_screen.dart';
-import 'package:eco_markt/screens/register_page.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class RegisterScreen extends StatefulWidget {
+  const RegisterScreen({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<RegisterScreen> createState() => _RegisterScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _RegisterScreenState extends State<RegisterScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,7 +25,9 @@ class _LoginScreenState extends State<LoginScreen> {
                   flex: 3,
                   child: Center(
                     child: SvgPicture.asset(
-                      'assets/images/login.svg',
+                      'assets/images/register.svg',
+                      width: 230,
+                      height: 230,
                     ),
                   )
               ),
@@ -34,7 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   flex: 6,
                   child: Container(
                     decoration: const BoxDecoration(
-                      color: Color(0xffe9fbe1),
+                        color: Color(0xffe9fbe1),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(40),
                             topRight: Radius.circular(40)
@@ -45,7 +46,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         const SizedBox(height: 20),
                         const Text(
-                          'Giriş',
+                          'Kayıt Ol',
                           style: TextStyle(
                             fontFamily: "LatoTR",
                             fontSize: 40,
@@ -87,6 +88,14 @@ class _LoginScreenState extends State<LoginScreen> {
                                   child: TextField(
                                     decoration: InputDecoration(
                                       hintText: 'Şifre',
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 250,
+                                  child: TextField(
+                                    decoration: InputDecoration(
+                                      hintText: 'Şifre Tekrar',
                                       enabledBorder: UnderlineInputBorder(
                                         borderSide: BorderSide.none,
                                       ),
@@ -131,10 +140,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               width: 150,
                               child: ElevatedButton(
                                 onPressed: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(builder: (context) => MainScreen()),
-                                  );
+
                                 },
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: const Color(0xff79EE66),
@@ -143,7 +149,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   ),
                                 ),
                                 child: const Text(
-                                  'Giriş Yap',
+                                  'Kayıt Ol',
                                   style: TextStyle(
                                     fontFamily: "LatoTR",
                                     fontSize: 16,
@@ -222,44 +228,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                   textAlign: TextAlign.center,
                                 ),
                               ],
-                            ),
-                          ),
-                        ),
-                        SizedBox(
-                          width: 300,
-                          // a text button for register with text "Henüz üye olmadın mı? Kayıt ol" and only make "Kayıt ol" clickable make only "Kayıt ol" underlined
-                          child: TextButton(
-                            onPressed: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => const RegisterScreen()),
-                              );
-                            },
-                            style: ElevatedButton.styleFrom(
-                              splashFactory: NoSplash.splashFactory,
-                            ),
-                            child: RichText(
-                              text: const TextSpan(
-                                text: 'Henüz üye olmadın mı? ',
-                                style: TextStyle(
-                                  fontFamily: "LatoTR",
-                                  fontSize: 16,
-                                  fontWeight: FontWeight.w400,
-                                  color: Color(0xff93989A),
-                                ),
-                                children: <TextSpan>[
-                                  TextSpan(
-                                    text: 'Kayıt ol',
-                                    style: TextStyle(
-                                      fontFamily: "LatoTR",
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w700,
-                                      color: Colors.black,
-                                      decoration: TextDecoration.underline,
-                                    ),
-                                  ),
-                                ],
-                              ),
                             ),
                           ),
                         ),
