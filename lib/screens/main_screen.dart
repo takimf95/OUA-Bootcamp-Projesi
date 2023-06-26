@@ -70,7 +70,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
         child: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
-          backgroundColor: const Color(0xff79EE66),
+          backgroundColor: Theme.of(context).colorScheme.background,
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(
               icon: Icon(
@@ -81,6 +81,13 @@ class _MainScreenState extends State<MainScreen> {
             BottomNavigationBarItem(
               icon: Icon(Icons.search),
               label: 'Arama',
+            ),
+            BottomNavigationBarItem(
+              icon: Image(
+                image: AssetImage('assets/images/logo.png'),
+                height: 30,
+              ),
+              label: '',
             ),
             BottomNavigationBarItem(
               icon: Icon(Icons.list),
@@ -109,7 +116,7 @@ class _MainScreenState extends State<MainScreen> {
       ),
       body: SafeArea(
         // place a top row that holds icon on center and like button on right
-        child: Column(
+        child: ListView(
           children: [
             Stack(
               children: [
@@ -118,8 +125,8 @@ class _MainScreenState extends State<MainScreen> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SvgPicture.asset(
-                        'assets/images/Ecomarkt_Logo.svg',
+                      Image.asset(
+                        'assets/images/logo.png',
                         height: 30,
                       ),
                     ],
@@ -135,11 +142,11 @@ class _MainScreenState extends State<MainScreen> {
                 children: [
                   Container(
                     width: screemWidth * 0.8,
-                    child: const Text(
+                    child: Text(
                       'Doğa Dostu Ürünleri ve Markaları Keşfet',
                       textAlign: TextAlign.left,
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: screemWidth / 15,
                         fontFamily: 'LatoTR',
                         fontWeight: FontWeight.bold,
                       ),
@@ -289,7 +296,7 @@ class _MainScreenState extends State<MainScreen> {
                   return Column(
                     children: [
                       Container(
-                        width: screemWidth * 0.2,
+                        width: 80,
                         height: 60,
                         decoration: BoxDecoration(
                           color: Color(0xffAAD2DB),

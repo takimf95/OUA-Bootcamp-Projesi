@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:eco_markt/screens/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -12,8 +13,34 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: MyHomePage(),
+    // create a color scheme
+    const ColorScheme colorScheme = ColorScheme(
+      primary: Color(0xff79EE66),
+      secondary: Color(0xffC4AFF0),
+      surface: Color(0xffF0FF42),
+      tertiary: Color(0xff8BC349),
+      background: Color(0xff006241),
+      error: Color(0xff79EE66),
+      onPrimary: Color(0xff1F1800),
+      onSecondary: Color(0xffffffff),
+      onSurface: Color(0xff79EE66),
+      onBackground: Color(0xff79EE66),
+      onError: Color(0xff79EE66),
+      brightness: Brightness.light,
+    );
+    return MaterialApp(
+      theme: ThemeData(
+        fontFamily: "LatoTR",
+        primarySwatch: Colors.green,
+        colorScheme: colorScheme,
+      ),
+      builder: (context, child) {
+        return MediaQuery(
+          data: MediaQuery.of(context).copyWith(textScaleFactor: 1.0),
+          child: child!,
+        );
+      },
+      home: const MyHomePage(),
     );
   }
 }
@@ -94,30 +121,33 @@ class Page1 extends StatefulWidget {
 }
 
 class _Page1State extends State<Page1> {
+
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
     return Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-            child: SvgPicture.asset(
-              'assets/images/Ecomarkt_Logo.svg',
-              semanticsLabel: 'Ecomarkt Logo',
+            child: Image.asset(
+              'assets/images/logo.png',
+              width: screenWidth * 0.5,
             ),
           ),
           const SizedBox(height: 30),
-          const SizedBox(
-            width: 180,
-            child: Text(
+          SizedBox(
+            width: screenWidth * 0.8,
+            height: screenHeight * 0.1,
+            child: const AutoSizeText(
               'Seçimlerin Dünya’yı Değiştirir!',
               style: TextStyle(
                 fontFamily: "LatoTR",
                 fontSize: 36,
                 fontWeight: FontWeight.w900,
               ),
-              textAlign: TextAlign.left,
+              textAlign: TextAlign.center,
             ),
           ),
           const SizedBox(height: 50),
@@ -142,12 +172,11 @@ class _Page1State extends State<Page1> {
 
 class Page2 extends StatelessWidget {
   const Page2({super.key});
-
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return Container(
-      color: const Color(0xff79EE66),
+      color: Theme.of(context).colorScheme.secondary,
       child: Column(
         children: [
           Expanded(
@@ -169,16 +198,16 @@ class Page2 extends StatelessWidget {
                       color: Colors.black,
                     ),
                     BoxShadow(
-                      color: Color(0xffe9fbe1),
+                      color: Color(0xfff2effb),
                       spreadRadius: -2.0,
                       blurRadius: 12.0,
-                      offset: Offset(-5, 2),
+                      offset: Offset(-10, 4),
                     ),
                     BoxShadow(
-                      color: Color(0xffe9fbe1),
+                      color: Color(0xfff2effb),
                       spreadRadius: -2.0,
                       blurRadius: 12.0,
-                      offset: Offset(5, 2),
+                      offset: Offset(10, 4),
                     ),
                   ],
                 borderRadius: BorderRadius.only(
@@ -187,82 +216,87 @@ class Page2 extends StatelessWidget {
                 )
               ),
               width: double.infinity,
-              child: Stack(
-                children: [
-                  Column(
-                    children: [
-                      const SizedBox(height: 20),
-                      const SizedBox(
-                        width: 180,
-                        child: Text(
-                          'Neden üye olmalıyım?',
-                          style: TextStyle(
-                            fontFamily: "LatoTR",
-                            fontSize: 24,
-                            letterSpacing: 2,
-                            fontWeight: FontWeight.w900,
-                            color: Color(0xff79EE66),
-                          ),
-                          textAlign: TextAlign.center,
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
+                child: Column(
+                  children: [
+                    const Expanded(child: SizedBox()),
+                    SizedBox(
+                      width: screenWidth * 0.5,
+                      child: Text(
+                        'Neden üye olmalıyım?',
+                        style: TextStyle(
+                          fontFamily: "LatoTR",
+                          fontSize: screenWidth / 15,
+                          letterSpacing: 2,
+                          fontWeight: FontWeight.w900,
+                          color: Theme.of(context).colorScheme.onPrimary,
                         ),
-                      ),
-                      const SizedBox(height: 20),
-                      SizedBox(
-                        width: screenWidth * 0.8,
-                        child: const Text(
-                          'Sadece kendi etik değerlerine uygun markaları profilde listeleyebilir, alışveriş alanını kişiselleştirebilirsin.',
-                          style: TextStyle(
-                            fontFamily: "LatoTR",
-                            fontSize: 16,
-                            fontWeight: FontWeight.w400,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
-                      Sticks(screenWidth: screenWidth,),
-                      SizedBox(
-                        width: screenWidth * 0.8,
-                        child: const Text(
-                          'Sevdiğin markalara ait fırsat ve yeniliklerden kolayca haberdar olabilirsin.',
-                          style: TextStyle(
-                            fontFamily: "LatoTR",
-                            fontSize: 16,
-                            fontWeight: FontWeight.w400,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
-                      Sticks(screenWidth: screenWidth,),
-                      SizedBox(
-                        width: screenWidth * 0.8,
-                        child: const Text(
-                          'Önerilerin hakında markalarla hıızlıca iletişime geçip daha yeşil çözümler için etki yaratabilirsin.',
-                          style: TextStyle(
-                            fontFamily: "LatoTR",
-                            fontSize: 16,
-                            fontWeight: FontWeight.w400,
-                          ),
-                          textAlign: TextAlign.center,
-                        ),
-                      ),
-                    ],
-                  ),
-                  Positioned(
-                    bottom: 20,
-                    right: 10,
-                    child: IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(builder: (context) => const LoginScreen()),
-                        );
-                      },
-                      icon: SvgPicture.asset(
-                        'assets/images/right.svg',
+                        textAlign: TextAlign.center,
                       ),
                     ),
-                  ),
-                ],
+                    const Expanded(child: SizedBox()),
+                    SizedBox(
+                      width: screenWidth * 0.8,
+                      child: Text(
+                        'Sadece kendi etik değerlerine uygun markaları profilde listeleyebilir, alışveriş alanını kişiselleştirebilirsin.',
+                        style: TextStyle(
+                          fontFamily: "LatoTR",
+                          fontSize: screenWidth / 25,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    const Expanded(child: SizedBox()),
+                    Sticks(screenWidth: screenWidth,),
+                    const Expanded(child: SizedBox()),
+                    SizedBox(
+                      width: screenWidth * 0.8,
+                      child: Text(
+                        'Sevdiğin markalara ait fırsat ve yeniliklerden kolayca haberdar olabilirsin.',
+                        style: TextStyle(
+                          fontFamily: "LatoTR",
+                          fontSize: screenWidth / 25,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    const Expanded(child: SizedBox()),
+                    Sticks(screenWidth: screenWidth,),
+                    const Expanded(child: SizedBox()),
+                    SizedBox(
+                      width: screenWidth * 0.8,
+                      child: Text(
+                        'Önerilerin hakında markalarla hızlıca iletişime geçip daha yeşil çözümler için etki yaratabilirsin.',
+                        style: TextStyle(
+                          fontFamily: "LatoTR",
+                          fontSize: screenWidth / 25,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                    ),
+                    const Expanded(child: SizedBox()),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        IconButton(
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const LoginScreen()),
+                            );
+                          },
+                          icon: SvgPicture.asset(
+                            'assets/images/right.svg',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             )
           ),
@@ -282,9 +316,6 @@ class Sticks extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          const SizedBox(
-            height: 20,
-          ),
           Align(
             alignment: Alignment.centerLeft,
             child: Container(
@@ -304,9 +335,7 @@ class Sticks extends StatelessWidget {
               color: Colors.black,
             ),
           ),
-          const SizedBox(
-            height: 20,
-          ),
+
         ],
       ),
     );
