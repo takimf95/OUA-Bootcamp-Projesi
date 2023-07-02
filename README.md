@@ -60,3 +60,31 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 
 # **Product Backlog URL**
 [**Product Backlog Flutter Team 95**](https://miro.com/app/board/uXjVM91Zno8=/?share_link_id=494123797558)
+
+# Sprint 2
+-**Sprint içinde tamamlanması tahmin edilen puan:** 150 puan
+
+Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/12_WEl-yMgA0jTAwad6VcCet1YdPAVaxV/view?usp=sharing)
+
+Sprint board update: Sprint board screenshotları:
+-**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 150 ile başlaması gerektiği değerlendirildi ancak ekip üyelerinin müsaitlik durumuna uygun olmayacağı tespit edilerek bu sprintte 100 puan tamamlanmasına karar verildi.
+
+-**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
+
+-**Sprint board update:** Sprint board screenshotları:
+![sprint1](Sprint.PNG) 
+
+- **Sprint Notları**
+- Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
+- **Ürün Durumu**: Ekran Görüntüleri
+- 
+-**Sprint Review:** Alınan kararlar: Kullanıcıyı karşılayacak ilk iki ekran ve giriş&kayıt ekranı tasarlanmış, frontend kısmı kodlanmış, anasayfa tasarımı ve içerikleri taslak olarak hazırlanmış, eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
+
+-**Sprint Retrospective:**
+- Asana platformunda atanan görevlerin daha dikkatli takip edilmesi gerektiğine,
+- Projeye ayrılan zamanın ilerleyen sprintlerde daha fazla olmasının gerekliliğine,
+- Ekip içi iletişimin arttırılmasına vurgu yapılmıştır.
+
+# **Product Backlog URL**
+[**Product Backlog Flutter Team 95**](https://miro.com/welcomeonboard/WFRwTmpLbzU0Tmt6VGdiZk5PcTFhM2cwZHVPRzJJbTRLZlU2UFNuUmpJaWdVb1djQkJ2SmN0M0l3aW9POUcxcHwzMDc0NDU3MzU3NTExMzM1NDk0fDI=?share_link_id=251862118617)
+
