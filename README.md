@@ -69,11 +69,12 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/148d1ErFW39tqM1NzZGgN3IyX7qm8YXHd/view?usp=sharing)
 
 -**Sprint board update:** Sprint board screenshotları:
-![sprint2](
+![sprint 2](sprint2.PNG)
 
 - **Sprint Notları**
 - Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
+- ![Kullanicianasayfa] (Kullanıcı anasayfa.jpeg)
 - 
 -**Sprint Review:** Alınan kararlar: Bir Önceki Sprintte karşılaşılan problem giderilmeye çalışılmış, Kullanıcı anasayfa ekranı, sepet ekranı, kullanıcı profili ekranları tasarlanmış, ürünlerin yer alacağı sayfa içeriği hazırlanmış yer alacak marka ve ürünlerin listesi yapılmıştır ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
 
