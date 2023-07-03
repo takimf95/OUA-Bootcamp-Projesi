@@ -74,9 +74,15 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 - **Sprint Notları**
 - Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
-- ![Kullanicianasayfa] (Kullanıcı anasayfa.jpeg)
-- 
--**Sprint Review:** Alınan kararlar: Bir Önceki Sprintte karşılaşılan problem giderilmeye çalışılmış, Kullanıcı anasayfa ekranı, sepet ekranı, kullanıcı profili ekranları tasarlanmış, ürünlerin yer alacağı sayfa içeriği hazırlanmış yer alacak marka ve ürünlerin listesi yapılmıştır ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
+- *Kullanıcı Anasayfası* \
+ ![1](Kullanıcı%20anasayfa.jpeg) \
+- *Kullanıcı Profili* \
+ ![2](Kullanıcı%20profili.jpeg) \
+- *Sepet* \
+ ![3](Sepet.jpeg)
+ 
+-**Sprint Review:** Alınan kararlar: Bir Önceki Sprintte karşılaşılan problem giderilmeye çalışılmış, Kullanıcı anasayfa ekranı, sepet ekranı, kullanıcı profili ekranları tasarlanmış, ürünlerin yer alacağı sayfa içeriği hazırlanmış yer alacak marka ve ürünlerin listesi yapılmıştır ve eksiklikler değerlendirilmiştir.
+-*Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva*
 
 -**Sprint Retrospective:**
 - 2.Sprintten daha fazla verim alabilmenin mümnkün olduğuna ancak yeterli zamanın ayırılmadığına değinilmiş olup, geri kalan sprintte her iki sprintten daha yoğun bir program izlenmesi gerektiğine vurgu yapılmıştır.
