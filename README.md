@@ -66,10 +66,10 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 
 -**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır. Bu Sprintte 150 puanlık backlog tamamlanması kararlaştırılmıştır.
 
--**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/12_WEl-yMgA0jTAwad6VcCet1YdPAVaxV/view?usp=sharing)
+-**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/148d1ErFW39tqM1NzZGgN3IyX7qm8YXHd/view?usp=sharing)
 
 -**Sprint board update:** Sprint board screenshotları:
-![sprint2](sprint 2 to do.PNG) 
+![sprint2](
 
 - **Sprint Notları**
 - Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
