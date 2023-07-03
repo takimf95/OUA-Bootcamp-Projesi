@@ -64,28 +64,23 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 # Sprint 2
 -**Sprint içinde tamamlanması tahmin edilen puan:** 150 puan
 
-Daily Scrum: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/12_WEl-yMgA0jTAwad6VcCet1YdPAVaxV/view?usp=sharing)
+-**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır. Bu Sprintte 150 puanlık backlog tamamlanması kararlaştırılmıştır.
 
-Sprint board update: Sprint board screenshotları:
-![sprint2](sprint 2 to do.PNG) 
-
--**Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 150 ile başlaması gerektiği değerlendirildi ancak ekip üyelerinin müsaitlik durumuna uygun olmayacağı tespit edilerek bu sprintte 100 puan tamamlanmasına karar verildi.
-
--**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örnekleri word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://drive.google.com/file/d/1uymS2xLsTaUjEsf27hTTZ3c4Nyx2XJrI/view?usp=sharing)
+-**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 2 Daily Scrum Chats](https://drive.google.com/file/d/12_WEl-yMgA0jTAwad6VcCet1YdPAVaxV/view?usp=sharing)
 
 -**Sprint board update:** Sprint board screenshotları:
-![sprint1](Sprint.PNG) 
+![sprint2](sprint 2 to do.PNG) 
 
 - **Sprint Notları**
 - Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
 - 
--**Sprint Review:** Alınan kararlar: Kullanıcıyı karşılayacak ilk iki ekran ve giriş&kayıt ekranı tasarlanmış, frontend kısmı kodlanmış, anasayfa tasarımı ve içerikleri taslak olarak hazırlanmış, eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
+-**Sprint Review:** Alınan kararlar: Bir Önceki Sprintte karşılaşılan problem giderilmeye çalışılmış, Kullanıcı anasayfa ekranı, sepet ekranı, kullanıcı profili ekranları tasarlanmış, ürünlerin yer alacağı sayfa içeriği hazırlanmış yer alacak marka ve ürünlerin listesi yapılmıştır ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva
 
 -**Sprint Retrospective:**
-- Asana platformunda atanan görevlerin daha dikkatli takip edilmesi gerektiğine,
-- Projeye ayrılan zamanın ilerleyen sprintlerde daha fazla olmasının gerekliliğine,
-- Ekip içi iletişimin arttırılmasına vurgu yapılmıştır.
+- 2.Sprintten daha fazla verim alabilmenin mümnkün olduğuna ancak yeterli zamanın ayırılmadığına değinilmiş olup, geri kalan sprintte her iki sprintten daha yoğun bir program izlenmesi gerektiğine vurgu yapılmıştır.
+- Karşılaşılan sorunlar ile ilgili en hızlı çözüme ulaşmak için tüm ekibin birlikte çalışması gerektiği ve Daily Scrumlara tüm ekip üyelerinin aktif katılımının önemi üzerinde durulmuştur.
+- Görev takibi ve projenin ilerleyişindeki kısmi yavaşlama konusunda çözüm önerileri değerlendirilmiştir.
 
 # **Product Backlog URL**
 [**Product Backlog Flutter Team 95**](https://miro.com/welcomeonboard/WFRwTmpLbzU0Tmt6VGdiZk5PcTFhM2cwZHVPRzJJbTRLZlU2UFNuUmpJaWdVb1djQkJ2SmN0M0l3aW9POUcxcHwzMDc0NDU3MzU3NTExMzM1NDk0fDI=?share_link_id=251862118617)
