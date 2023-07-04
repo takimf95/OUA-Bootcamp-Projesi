@@ -16,19 +16,18 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
-    double screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       // resizeToAvoidBottomInset: false,
       body: Container(
         width: double.infinity,
         height: double.infinity,
-        color: Theme.of(context).colorScheme.secondary,
+        color: Theme.of(context).colorScheme.background,
         child: SafeArea(
           child: CustomScrollView(
             slivers: [
               SliverAppBar(
-                backgroundColor: Theme.of(context).colorScheme.secondary,
-                expandedHeight: 300,
+                backgroundColor: Theme.of(context).colorScheme.background,
+                expandedHeight: screenWidth / 1.2,
                 automaticallyImplyLeading: false,
                 flexibleSpace: FlexibleSpaceBar(
                   background: SvgPicture.asset(
@@ -36,10 +35,12 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-              SliverToBoxAdapter(
+              // fill remaining but also scrollable
+              SliverFillRemaining(
+                hasScrollBody: false,
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Theme.of(context).colorScheme.onSecondary,
+                      color: Color.fromARGB(204, 255, 255, 255),
                       borderRadius: const BorderRadius.only(
                           topLeft: Radius.circular(40),
                           topRight: Radius.circular(40)

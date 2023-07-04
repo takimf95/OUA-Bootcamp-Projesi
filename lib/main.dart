@@ -15,17 +15,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // create a color scheme
     const ColorScheme colorScheme = ColorScheme(
-      primary: Color(0xff79EE66),
-      secondary: Color(0xffC4AFF0),
-      surface: Color(0xffF0FF42),
-      tertiary: Color(0xff8BC349),
-      background: Color(0xff006241),
-      error: Color(0xff79EE66),
-      onPrimary: Color(0xff1F1800),
-      onSecondary: Color(0xffffffff),
-      onSurface: Color(0xff79EE66),
-      onBackground: Color(0xff79EE66),
-      onError: Color(0xff79EE66),
+      primary: Color(0xff006241),
+      secondary: Color(0xff8BC349),
+      surface: Color(0xff79EE66),
+      background: Color(0xffF2F5E3),
+      error: Color(0xff333333),
+      onPrimary: Color(0xff333333),
+      onSecondary: Color(0xff333333),
+      onSurface: Color(0xff333333),
+      onBackground: Color(0xff333333),
+      onError: Color(0xff333333),
       brightness: Brightness.light,
     );
     return MaterialApp(
@@ -65,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Theme.of(context).colorScheme.background,
       body: SafeArea(
         child: Stack(
           children: [
@@ -176,7 +176,6 @@ class Page2 extends StatelessWidget {
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return Container(
-      color: Theme.of(context).colorScheme.secondary,
       child: Column(
         children: [
           Expanded(
@@ -192,24 +191,7 @@ class Page2 extends StatelessWidget {
             flex: 6,
             child: Container(
               decoration: const BoxDecoration(
-                // color: Color(0xffe9fbe1),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black,
-                    ),
-                    BoxShadow(
-                      color: Color(0xfff2effb),
-                      spreadRadius: -2.0,
-                      blurRadius: 12.0,
-                      offset: Offset(-10, 4),
-                    ),
-                    BoxShadow(
-                      color: Color(0xfff2effb),
-                      spreadRadius: -2.0,
-                      blurRadius: 12.0,
-                      offset: Offset(10, 4),
-                    ),
-                  ],
+                color: Color.fromARGB(204, 255, 255, 255),
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(40),
                   topRight: Radius.circular(40)

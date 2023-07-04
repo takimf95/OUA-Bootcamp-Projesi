@@ -66,6 +66,7 @@ flutter:
     - assets/images/
     - assets/images/categories/
     - assets/images/stores/
+    - assets/images/nav_bar_icons/
   fonts:
     - family: Lato
       fonts:
@@ -91,6 +92,9 @@ flutter:
           style: italic
         - asset: assets/fonts/LatoTR/LatoTR-Black.ttf
           weight: 900
+    - family: NavBarIcons
+      fonts:
+        - asset: assets/fonts/NavBarIcons.ttf
 
   # To add assets to your application, add an assets section, like this:
   #   assets:
