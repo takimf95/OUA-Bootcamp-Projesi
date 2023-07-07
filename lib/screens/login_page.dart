@@ -1,4 +1,3 @@
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:eco_markt/screens/main_screen.dart';
 import 'package:eco_markt/screens/register_page.dart';
 import 'package:flutter/material.dart';
@@ -39,12 +38,22 @@ class _LoginScreenState extends State<LoginScreen> {
               SliverFillRemaining(
                 hasScrollBody: false,
                 child: Container(
-                  decoration: BoxDecoration(
-                      color: Color.fromARGB(204, 255, 255, 255),
-                      borderRadius: const BorderRadius.only(
+                  decoration: const BoxDecoration(
+                      // color: Color.fromARGB(204, 255, 255, 255),
+                      borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(40),
                           topRight: Radius.circular(40)
-                      )
+                      ),
+                    boxShadow: [
+                      const BoxShadow(
+                        color: Color(0x3f000000),
+                      ),
+                      const BoxShadow(
+                        color: Color.fromARGB(204, 255, 255, 255),
+                        spreadRadius: -12.0,
+                        blurRadius: 12.0,
+                      ),
+                    ],
                   ),
                   child: Column(
                     children: [

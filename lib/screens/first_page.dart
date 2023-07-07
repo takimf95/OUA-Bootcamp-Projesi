@@ -19,7 +19,7 @@ class _FirstScreenState extends State<FirstScreen> {
       },
       {
         'name': 'Giyim',
-        'icon': 'assets/images/categories/clothes.svg',
+        'icon': 'assets/images/categories/fashion.png',
       },
       {
         'name': 'Kişisel Bakım',
@@ -247,7 +247,7 @@ class _FirstScreenState extends State<FirstScreen> {
                           ],
                         ),
                         child: Center(
-                          child: SvgPicture.asset(
+                          child: categories[index]['name'] == 'Giyim' ? Image(image: AssetImage(categories[index]['icon'])) : SvgPicture.asset(
                             categories[index]['icon'],
                             height: 40,
                           ),

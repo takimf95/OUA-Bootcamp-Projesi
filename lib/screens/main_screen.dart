@@ -1,8 +1,8 @@
 import 'package:eco_markt/presentation/nav_bar_icons_icons.dart';
 import 'package:eco_markt/screens/first_page.dart';
 import 'package:eco_markt/screens/profile_page.dart';
+import 'package:eco_markt/screens/req_list_page.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 
 class MainScreen extends StatefulWidget {
@@ -36,15 +36,7 @@ class _MainScreenState extends State<MainScreen> {
       ),
     ),
     const FirstScreen(),
-    const Center(
-      child: Text(
-        'İhtiyaç Listesi',
-        style: TextStyle(
-          fontSize: 30,
-          fontWeight: FontWeight.bold,
-        ),
-      ),
-    ),
+    const ReqListPage(),
     const ProfileScreen()
   ];
 
