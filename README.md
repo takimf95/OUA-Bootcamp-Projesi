@@ -92,3 +92,11 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 # **Product Backlog URL**
 [**Product Backlog Flutter Team 95**](https://miro.com/welcomeonboard/WFRwTmpLbzU0Tmt6VGdiZk5PcTFhM2cwZHVPRzJJbTRLZlU2UFNuUmpJaWdVb1djQkJ2SmN0M0l3aW9POUcxcHwzMDc0NDU3MzU3NTExMzM1NDk0fDI=?share_link_id=251862118617)
 
+# Sprint 3
+-**Sprint içinde tamamlanması tahmin edilen puan:** 
+-**Puan tamamlama mantığı:**
+-**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+-**Sprint board update:**
+- **Sprint Notları**
+- Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
+- **Ürün Durumu**: Ekran Görüntüleri
