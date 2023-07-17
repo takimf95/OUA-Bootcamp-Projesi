@@ -93,10 +93,20 @@ Bu proje, çevre dostu ürünlere erişimi kolaylaştırmak ve sürdürülebilir
 [**Product Backlog Flutter Team 95**](https://miro.com/welcomeonboard/WFRwTmpLbzU0Tmt6VGdiZk5PcTFhM2cwZHVPRzJJbTRLZlU2UFNuUmpJaWdVb1djQkJ2SmN0M0l3aW9POUcxcHwzMDc0NDU3MzU3NTExMzM1NDk0fDI=?share_link_id=251862118617)
 
 # Sprint 3
--**Sprint içinde tamamlanması tahmin edilen puan:** 
--**Puan tamamlama mantığı:**
+-**Sprint içinde tamamlanması tahmin edilen puan:** 230 puan
+-**Puan tamamlama mantığı:** Sprint içinde 230 puanlık backlog bulunmaktadır fakat gerekli zamanın ayrılamaması sonucunda yalnızca 50 puanlık backlog tamamlanabilmiş olup, proje tamamlanamamıştır. 
 -**Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: 
+[Sprint 3 Daily Scrum Chats](https://drive.google.com/file/d/1nNsz1a5wPyNI0C8qcUdTMov4DkOj5dP7/view?usp=sharing)
 -**Sprint board update:**
 - **Sprint Notları**
 - Ürün kabul kriterleri ve açıklamaları taskların içerisinde görüntülenebilmektedir.
 - **Ürün Durumu**: Ekran Görüntüleri
+- 
+
+- -**Sprint Review:** Alınan kararlar: Sprintte zamansal sebeplerden dolayı hedeflenen görevler tamamlanamış olup, kapsam konusunda mecburen kısıtlamaya gidilmiştir.
+-*Sprint Review katılımcıları: Neslihan Uzun, Şeyma Kumit, Kaan Binen, Esra Çiftçi, Ömer Kozuva*
+
+-**Sprint Retrospective:**
+-Ekip Üyelerinin zaman yönetimi ve teknik konularda kendilerini geliştirmeleri gerektiği,
+-Katıldıkları diğer projelerde iletişimde kalmaya özen göstermeleri gerektiğine karar verilmiştir.
+-
